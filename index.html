@@ -3,42 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Yova | Developer & Server Expert</title>
-    <!-- Menghubungkan ke file CSS -->
+    <title>Portofolio Yova</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div class="container">
-        <header>
-            <img src="https://via.placeholder.com/150" alt="Foto Profil" class="profile-img">
+    <div class="card-container">
+        <header class="header-section">
+            <img src="https://media.discordapp.net/attachments/1412400418121715715/1488058705831399486/PP_Yova.png?ex=69cb662a&is=69ca14aa&hm=fa99445a14ff0a74850c551869e3d27a1a38008da64feefb1a73ebcaccb97e66&=&format=webp&quality=lossless" alt="Profile" class="profile-img">
             <h1>Halo, Saya Yova</h1>
-            <p class="subtitle">Minecraft Server Expert | Aspiring Web Developer</p>
+            <p class="tagline">Learn Website Development</p>
         </header>
 
-        <section class="content">
-            <h2>Tentang Saya</h2>
-            <p>Saya seorang pengelola server yang antusias dengan dunia IT. Berpengalaman dalam mengelola komunitas dan infrastruktur server game.</p>
+        <hr class="separator">
+
+        <main class="content-section">
             
-            <h2>Keahlian</h2>
-            <div class="skills">
-                <span>Linux Management</span>
-                <span>Minecraft Networking</span>
-                <span>HTML/CSS</span>
-                <span>Community Handling</span>
-            </div>
+            <section class="info-block">
+                <h2 class="section-title">About Me</h2>
+                <p>Saya seorang pelajar yang antusias dengan dunia IT. Berpengalaman dalam mengelola komunitas dan infrastruktur Minecraft Server, serta sedang mendalami pengembangan web.</p>
+            </section>
 
-            <h2>Proyek & Bisnis</h2>
-            <ul>
-                <li><strong>Minecraft Server:</strong> Mengelola server dengan domain .xyz sendiri.</li>
-                <li><strong>Webstore Server:</strong> Mengintegrasikan sistem pembayaran otomatis untuk item game.</li>
-            </ul>
-        </section>
+            <section class="info-block">
+                <h2 class="section-title">Detail Profil</h2>
+                <div class="profile-grid">
+                    <div class="profile-item">
+                        <span class="label">Age</span>
+                        <span class="value">15 Years old</span>
+                    </div>
+                    <div class="profile-item">
+                        <span class="label">Birthday</span>
+                        <span class="value">January 25th</span>
+                    </div>
+                    <div class="profile-item">
+                        <span class="label">Location</span>
+                        <span class="value">Lumajang, East Java</span>
+                    </div>
+                    <div class="profile-item">
+                        <span class="label">Education</span>
+                        <span class="value">SMK Telkom Malang (TKJ)</span>
+                    </div>
+                </div>
+            </section>
 
-        <footer>
-            <p>&copy; 2024 Yova. Dibuat dengan semangat.</p>
-        </footer>
+            <section class="info-block">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Dev. Minecraft Server</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-line"><span style="width: 85%;"></span></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Dev. Discord Server</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-line"><span style="width: 90%;"></span></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML / CSS</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="progress-line"><span style="width: 50%;"></span></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>OS Administration</span>
+                            <span>35%</span>
+                        </div>
+                        <div class="progress-line"><span style="width: 35%;"></span></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-block">
+                <h2 class="section-title">Projects</h2>
+                <ul class="project-list">
+                    <li><strong>Minecraft Server:</strong> Mengelola server pribadi bernama <strong>GlitchMC</strong>.</li>
+                    <li><strong>Website Development:</strong> Sedang mendalami dunia Website tepatnya HTML/CSS.</li>
+                </ul>
+            </section>
+
+            <footer class="nexus-footer">
+                <hr class="separator">
+                <div class="footer-content">
+                    <div class="footer-col brand">
+                        <div class="footer-brand-header">
+                            <img src="https://media.discordapp.net/attachments/1412400418121715715/1488058705831399486/PP_Yova.png?ex=69cb662a&is=69ca14aa&hm=fa99445a14ff0a74850c551869e3d27a1a38008da64feefb1a73ebcaccb97e66&=&format=webp&quality=lossless" alt="Logo GMC" class="footer-logo-img">
+                            <h3 class="footer-logo">YO<span>VA</span></h3>
+                        </div>
+                        <p>Learn Website Development.</p>
+                        <div class="footer-socials">
+                            <a href="https://github.com/fairuzziachmad" target="_blank" class="social-icon">GitHub</a>
+                            <a href="mailto:fairuzziachmad@gmail.com" class="social-icon">Email</a>
+                            <a href="https://discord.gg/QX86DssNRP" target="_blank" class="social-icon">Discord</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-col contact-info">
+                        <h4>Contact Information</h4>
+                        <p>📍 Lumajang, East Java</p>
+                        <p>📧 yova@yova.id</p>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Yova. All rights reserved.</p>
+                    <p class="footer-tagline">Learn Website Development</p>
+                </div>
+            </footer>
+        </main>
     </div>
-
 </body>
 </html>
